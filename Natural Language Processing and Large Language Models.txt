@@ -1,0 +1,63 @@
+# NLP is a field of linguistics(language) and machine learning focused on understanding everything related to human language. The aim of NLP tasks is not only to understand single words individually, but to be able to understand the context of those words.
+
+# List of common NLP tasks :
+1. Classifying whole sentences
+2. Classifying each word in a sentence
+3. Generating text content
+4. Extracting an answer from a text
+5. Generating a new sentence from an input text
+
+NOTE: NLP isn't limited to written text. It also tackles complex challenges like speech translation, sentiment analysis, and text summarization, transcript audio , etc...
+
+
+
+# RISE OF LLMs
+---------------
+
+# In recent years, the field of NLP has been revolutionized by Large Language Models (LLMs). These models, which include architectures like GPT (Generative Pre-trained Transformer) and Llama, have transformed what’s possible in language processing.
+
+"A large language model (LLM) is an AI model trained on massive amounts of text data that can understand and generate human-like text, recognize patterns in language, and perform a wide variety of language tasks without task-specific training. They represent a significant advancement in the field of natural language processing (NLP)."
+
+QUESTION : What is Generative Pre-trained Transformers(GPT)?
+Answer : GPT, or Generative Pre-trained Transformer, is a type of large language model used for generating human-like text. It's built on the transformer architecture and pre-trained on massive datasets, allowing it to perform various natural language processing tasks, including text generation, translation, and question answering. 
+
+
+QUESTION : How LLMs are charaterized ?
+Ans : 1. Scale: They contain millions, billions, or even hundreds of billions of parameters.
+
+QUESTION : What it mean by parameters??
+Ans: 
+
+2.General capabilities: They can perform multiple tasks without task-specific training.
+
+3.In-context learning: They can learn from examples provided in the prompt.
+
+4.Emergent abilities: As these models grow in size, they demonstrate capabilities that weren’t explicitly programmed or anticipated.
+
+
+NOTE : Earlier what we do if we want to perform any NLP tasks like senstiment analysis, text extraction, transcript audio, etc.. then we need to design the LLMs for each tasks . But now with the advent of LLMs, we fine-tune each model to address a wide range of language tasks.
+
+
+#LLMs also have important limitations
+--------------------------------------
+1. Hallucinations: They can generate incorrect information confidently.
+
+2.Lack of true understanding: They lack true understanding of the world and operate purely on statistical patterns.
+
+3.Bias: They may reproduce biases present in their training data or inputs.
+
+4.Context windows: They have limited context windows (though this is improving)---> What is this?? Number character I am able to give as an prompt.
+
+5.Computational resources: They require significant computational resources
+
+
+Question: Why is language processing challenging??
+Answer: 1.Computers don’t process information in the same way as humans. For example, when we read the sentence “I am hungry,” we can easily understand its meaning. 
+
+        2.For machine learning (ML) models, such tasks are more difficult. The text needs to be processed in a way that enables the model to learn from it. 
+        
+        3.And because language is complex, we need to think carefully about how this processing must be done.
+
+        4.Even with the advances in LLMs, many fundamental challenges remain. These include understanding ambiguity, cultural context, sarcasm, and humor.
+
+        5.LLMs address these challenges through massive training on diverse datasets, but still often fall short of human-level understanding in many complex scenarios.
